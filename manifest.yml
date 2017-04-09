@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-teconn
+  host: IoT-teconn
+  disk_quota: 1024M
+  services:
+  - IoT-teconn-cloudantNoSQLDB
+  - IoT-teconn-iotf-service
